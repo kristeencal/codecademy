@@ -1,0 +1,31 @@
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+div {
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: violet;
+    font-family: Arial;
+}
