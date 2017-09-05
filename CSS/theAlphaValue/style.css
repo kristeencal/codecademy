@@ -19,8 +19,6 @@ body {
 }
 
 h1 {
-
-
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
@@ -28,7 +26,7 @@ h1 {
   position: relative;
   text-align: center;
   top: 20%;
-  color: hsl(350, 58.8%, 42.0%);
+  color: rgba(2,93,140, 0.9);
 }
 
 /** List style **/
