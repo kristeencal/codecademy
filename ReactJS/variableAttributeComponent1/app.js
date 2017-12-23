@@ -1,27 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const redPanda = {
-  src: 'http://bit.ly/1U92LL3',
-  alt: 'Red Panda',
-  width:  '200px'
+
+const owl = {
+  title: "Excellent Owl",
+  src: "https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-owl.jpg"
 };
 
-class RedPanda extends React.Component {
-  render() {
+class Owl extends React.Component {
+  render () {
     return (
       <div>
-        <h1>Cute Red Panda</h1>
+        <h1>{owl.title}</h1>
         <img
-          src={redPanda.src}
-          alt={redPanda.alt}
-          width={redPanda.width} />
+          src={owl.src}
+          alt={owl.title} />
       </div>
     );
   }
 }
-
-ReactDOM.render(
-  <RedPanda />,
-  document.getElementById('app')
-);
