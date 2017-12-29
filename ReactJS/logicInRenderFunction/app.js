@@ -17,3 +17,11 @@ const friends = [
 ];
 
 // New component class starts here:
+class Friend extends React.Component {
+  render() {
+    return(
+    	<div>
+      </div>
+    );
+  }
+}
