@@ -22,6 +22,7 @@ class Friend extends React.Component {
     var friend = friends[0];
     return(
     	<div>
+        <h1></h1>
       </div>
     );
   }
