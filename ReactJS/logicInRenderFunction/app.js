@@ -23,6 +23,7 @@ class Friend extends React.Component {
     return(
     	<div>
         <h1>{friend.title}</h1>
+        <img src="{friend.src}" />
       </div>
     );
   }
