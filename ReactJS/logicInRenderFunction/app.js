@@ -28,3 +28,5 @@ class Friend extends React.Component {
     );
   }
 }
+
+ReactDOM.render( <Friend />, document.getElementById('app'))
