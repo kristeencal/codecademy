@@ -8,16 +8,12 @@ class TonightsPlan extends React.Component {
   render () {
     let task;
     if (fiftyFifty = true) {
-      task= '<h1>Tonight I'm going out WOOO</h1>'
+      task = "Tonight I'm going out WOOO"
     }
-     else {
-      task= '<h1>Tonight I'm going to bed WOOO</h1>'
+    else {
+      task = "Tonight I'm going to bed WOOO"
     }
-    return task;
+
+    return <h1>{task}</h1>;
   }
 }
-
-ReactDOM.render(
-  <TonightsPlan />,
-  document.getElementById('app')
-);
