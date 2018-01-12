@@ -8,7 +8,7 @@ class TonightsPlan extends React.Component {
 
   render () {
     let task;
-    if (fiftyFifty = true) {
+    if (true) {
       task = 'Tonight Im going out WOOO'
     }
     else {
