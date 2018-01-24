@@ -8,7 +8,7 @@ class MyName extends React.Component {
   }
 
   render() {
-    return <h1></h1>;
+    return <h1>My name is {this.name}.</h1>;
   }
 }
 
